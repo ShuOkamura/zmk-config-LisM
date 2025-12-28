@@ -20,7 +20,7 @@ layers:
   - {t: J, h: RGUI}
   - {t: K, h: RSHIFT}
   - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
+  - {t: '-', h: Mark Layer}
   - Z
   - X
   - C
@@ -35,10 +35,10 @@ layers:
   - {t: Mouse Layer, h: toggle}
   - {t: TAB, h: Mouse Layer}
   - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Mark Layer}
-  - {t: BS, h: Mark Layer}
-  - {t: ENTER, h: Number Layer}
+  - {t: LANG2, h: Number Layer}
+  - {t: SPACE, h: Mark Layer}
+  - {t: ENTER, h: Mark Layer}
+  - {t: LANG1, h: Number Layer}
   - Sft+Gui+4
   - F7
   - F10
