@@ -13,12 +13,12 @@ layers:
   - P
   - A
   - S
-  - D
+  - {t: D, h: Mouse Layer}
   - {t: F, h: LSHIFT}
   - G
   - H
   - {t: J, h: RSHIFT}
-  - K
+  - {t: K, h: Mouse Layer}
   - {t: L, h: Mouse Layer}
   - {t: '-', h: RCTRL}
   - {t: Z, h: LSHIFT}
@@ -32,11 +32,11 @@ layers:
   - .
   - {t: /, h: RSHIFT}
   - {t: Mouse Layer, h: toggle}
-  - {t: Mouse Layer, h: toggle}
+  - LALT
   - {t: TAB, h: Mouse Layer}
   - Sft+Gui+4
-  - {t: LANG2, h: Number Layer}
-  - {t: SPACE, h: Mark Layer}
+  - {t: LANG2, h: LCTRL}
+  - {t: SPACE, h: Number Layer}
   - {t: ENTER, h: Mark Layer}
   - {t: LANG1, h: Mouse Layer}
   - Sft+Gui+4
@@ -49,41 +49,41 @@ layers:
   - Sft+3
   - Sft+4
   - Sft+5
-  - {t: ▽, type: trans}
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+6
+  - Sft+8
+  - Sft+9
+  - Sft+7
+  - F8
+  - KP 1
+  - KP 2
+  - {t: KP 3, type: held}
+  - KP 4
+  - KP 5
+  - '{'
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: RSHIFT, type: held}
-  - RCTRL
+  - Sft+,
+  - Sft+PERIOD
+  - KP 6
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
+  - Sft+Gui+S
+  - '}'
+  - \
+  - INTERNATIONAL 3
+  - Sft+INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+↓
-  - ←
-  - ↑
-  - →
+  - Device Layer
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Number Layer:
@@ -121,8 +121,8 @@ layers:
   - .
   - '0'
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
-  - {t: ▽, type: trans}
+  - LANG2
+  - {type: held}
   - BS
   - LANG1
   - {t: ▽, type: trans}
@@ -135,39 +135,39 @@ layers:
   - (
   - )
   - ''
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
+  - Gui+←
+  - Sft+Gui+LEFT ARROW
+  - ↑
+  - Sft+Gui+→
+  - Gui+→
   - '&emoji'
   - F5
   - '['
   - ']'
   - ''
-  - '`'
-  - _
-  - ''''
-  - '"'
-  - \
+  - HOME
+  - ←
+  - ↓
+  - →
+  - END
   - KP NUMLOCK
   - F11
   - '{'
   - '}'
   - ''
-  - '|'
-  - '%'
-  - ^
-  - '&'
-  - '*'
+  - PAGE UP
+  - Alt+←
+  - {t: SPACE, h: RALT}
+  - Alt+→
+  - Ctl+W
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - SPACE
-  - {type: held}
-  - BS
-  - ENTER
+  - ESCAPE
+  - TAB
+  - {t: BS, type: held}
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -185,7 +185,7 @@ layers:
   - {t: BT, h: '4'}
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -208,7 +208,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - '&studio_unlock'
   - ''
   - ''
