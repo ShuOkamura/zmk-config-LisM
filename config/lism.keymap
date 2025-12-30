@@ -51,10 +51,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q         &kp W     &kp E    &kp R           &kp T                                        &kp Y        &kp U           &kp I             &kp O     &kp P
-&kp A         &kp S     &lt 1 D  &mt LSHIFT F    &kp G                                        &kp H        &mt RSHIFT J    &kp K             &kp L     &mt RCTRL MINUS
-&mt LSHIFT Z  &kp X     &kp C    &kp V           &kp B                                        &kp N        &kp M           &mkp MB1          &mkp MB2  &lt 2 SLASH
-&kp LS(CAPS)  &kp LALT  &kp TAB  &kp LS(LG(N4))  &mt LCTRL LANG2  &lt 2 SPACE    &lt 3 ENTER  &lt 1 LANG1  &kp LS(LG(N4))  &kp LEFT_BRACKET  &kp F5    &mt RGUI DELETE
+&kp Q         &kp W     &kp E    &kp R           &kp T                                        &kp Y        &kp U           &kp I     &kp O     &kp P
+&kp A         &kp S     &lt 1 D  &mt LSHIFT F    &kp G                                        &kp H        &mt RSHIFT J    &kp K     &kp L     &mt RCTRL MINUS
+&mt LSHIFT Z  &kp X     &kp C    &kp V           &kp B                                        &kp N        &kp M           &mkp MB1  &mkp MB2  &lt 2 SLASH
+&kp LS(CAPS)  &kp LALT  &kp TAB  &kp LS(LG(N4))  &mt LCTRL LANG2  &lt 2 SPACE    &lt 3 ENTER  &lt 1 LANG1  &kp LS(LG(N4))  &kp F4    &kp F5    &mt RGUI DELETE
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_DN C_VOL_UP>;
@@ -64,7 +64,7 @@
             display-name = "Mouse Layer";
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                   &kp LS(NUMBER_6)  &kp LS(NUMBER_8)     &kp LS(NUMBER_9)  &kp LS(N7)     &kp F8
-&kp KP_NUMBER_1   &kp KP_NUMBER_2   &kp KP_NUMBER_3   &kp KP_NUMBER_4   &kp KP_NUMBER_5                    &kp LEFT_BRACE    &kp RIGHT_BRACKET    &kp BACKSLASH     &kp LS(COMMA)  &kp LS(PERIOD)
+&kp KP_NUMBER_1   &kp KP_NUMBER_2   &kp KP_NUMBER_3   &kp KP_NUMBER_4   &kp KP_NUMBER_5                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BACKSLASH     &kp LS(COMMA)  &kp LS(PERIOD)
 &kp KP_NUMBER_6   &kp KP_NUMBER_7   &kp KP_NUMBER_8   &kp KP_NUMBER_9   &kp KP_NUMBER_0                    &kp LS(LG(S))     &kp INTERNATIONAL_3  &kp COMMA         &kp PERIOD     &kp LS(INTERNATIONAL_3)
 &trans            &trans            &trans            &trans            &trans            &mo 4    &trans  &trans            &trans               &trans            &trans         &trans
             >;
