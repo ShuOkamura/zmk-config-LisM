@@ -87,48 +87,48 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Number Layer:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - '1'
+  - '2'
+  - '3'
+  - PERIOD
+  - F8
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '4'
+  - '5'
+  - '6'
+  - Sft+SEMI
+  - APOS
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
-  - '='
-  - F1
-  - F2
-  - F7
-  - F10
-  - RSHIFT
-  - '*'
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
-  - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - RGUI
-  - /
-  - '1'
-  - '2'
-  - '3'
-  - +
-  - '&mkp MB2'
-  - ''
-  - ↓
-  - ''
-  - RALT
+  - Sft+APOS
+  - Sft+UNDERSCORE
   - {t: ▽, type: trans}
-  - .
-  - '0'
   - {t: ▽, type: trans}
-  - LANG2
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - BS
-  - LANG1
+  - '0'
   - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
-  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+INTERNATIONAL 1
   Mark Layer:
   - Sft+Gui+4
   - F4
