@@ -40,7 +40,7 @@ layers:
   - {t: ENTER, h: Mark Layer}
   - {t: LANG1, h: Mouse Layer}
   - Sft+Gui+4
-  - F4
+  - '}'
   - F5
   - {t: DEL, h: RGUI}
   Mouse Layer:
