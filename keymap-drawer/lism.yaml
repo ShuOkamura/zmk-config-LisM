@@ -12,14 +12,14 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: LALT}
-  - {t: D, h: LGUI}
+  - S
+  - D
   - {t: F, h: LSHIFT}
-  - {t: G, h: LCTRL}
-  - {t: H, h: RCTRL}
+  - G
+  - H
   - {t: J, h: RSHIFT}
-  - {t: K, h: RGUI}
-  - {t: L, h: RALT}
+  - K
+  - {t: L, h: Mouse Layer}
   - {t: '-', h: RCTRL}
   - {t: Z, h: LSHIFT}
   - X
@@ -31,40 +31,40 @@ layers:
   - ','
   - .
   - {t: /, h: RSHIFT}
-  - {t: DEL, h: Device Layer}
+  - {t: Mouse Layer, h: toggle}
   - {t: Mouse Layer, h: toggle}
   - {t: TAB, h: Mouse Layer}
   - Sft+Gui+4
   - {t: LANG2, h: Number Layer}
   - {t: SPACE, h: Mark Layer}
   - {t: ENTER, h: Mark Layer}
-  - {t: LANG1, h: Number Layer}
+  - {t: LANG1, h: Mouse Layer}
   - Sft+Gui+4
-  - DEL
-  - ESCAPE
   - {t: Mouse Layer, h: toggle}
+  - ESCAPE
+  - {t: DEL, h: RGUI}
   Mouse Layer:
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SPACE
   - Gui+←
   - Gui+→
   - '&mkp MB3'
   - {t: ▽, type: trans}
-  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+↑
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
-  - RSHIFT
+  - {t: RSHIFT, type: held}
   - RCTRL
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: LANG2, type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BS
   - LANG1
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - SPACE
   - {type: held}
-  - {t: ▽, type: trans}
+  - BS
   - ENTER
   - {t: ▽, type: trans}
   - ''
@@ -203,7 +203,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: Boot, type: held}
+  - Boot
   - BT CLR ALL
   - ''
   - ''
