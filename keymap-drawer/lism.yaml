@@ -18,8 +18,8 @@ layers:
   - G
   - H
   - {t: J, h: RSHIFT}
-  - {t: K, h: Mouse Layer}
-  - {t: L, h: Mouse Layer}
+  - K
+  - L
   - {t: '-', h: RCTRL}
   - {t: Z, h: LSHIFT}
   - X
@@ -28,20 +28,20 @@ layers:
   - B
   - N
   - M
-  - ','
-  - .
-  - {t: /, h: RSHIFT}
-  - {t: Mouse Layer, h: toggle}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - {t: /, h: Number Layer}
+  - Sft+CAPS
   - LALT
-  - {t: TAB, h: Mouse Layer}
+  - TAB
   - Sft+Gui+4
   - {t: LANG2, h: LCTRL}
   - {t: SPACE, h: Number Layer}
   - {t: ENTER, h: Mark Layer}
   - {t: LANG1, h: Mouse Layer}
   - Sft+Gui+4
-  - {t: Mouse Layer, h: toggle}
-  - ESCAPE
+  - F4
+  - F5
   - {t: DEL, h: RGUI}
   Mouse Layer:
   - Sft+1
@@ -60,8 +60,8 @@ layers:
   - KP 4
   - KP 5
   - '{'
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - '}'
+  - \
   - Sft+,
   - Sft+PERIOD
   - KP 6
@@ -70,9 +70,9 @@ layers:
   - KP 9
   - KP 0
   - Sft+Gui+S
-  - '}'
-  - \
   - INTERNATIONAL 3
+  - ','
+  - PERIOD
   - Sft+INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -116,13 +116,13 @@ layers:
   - '8'
   - '9'
   - Sft+APOS
-  - Sft+UNDERSCORE
+  - {t: Sft+UNDERSCORE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - BS
   - '0'
   - {t: ▽, type: trans}
@@ -130,48 +130,48 @@ layers:
   - {t: ▽, type: trans}
   - Sft+INTERNATIONAL 1
   Mark Layer:
-  - Sft+Gui+4
-  - F4
-  - (
-  - )
-  - ''
+  - Ctl+BS
+  - {t: ▽, type: trans}
+  - Sft+↑
+  - {t: ▽, type: trans}
+  - Sft+F5
   - Gui+←
   - Sft+Gui+LEFT ARROW
   - ↑
   - Sft+Gui+→
   - Gui+→
-  - '&emoji'
-  - F5
-  - '['
-  - ']'
-  - ''
+  - K
+  - Sft+←
+  - Sft+↓
+  - Sft+→
+  - {t: ▽, type: trans}
   - HOME
   - ←
   - ↓
   - →
   - END
-  - KP NUMLOCK
-  - F11
-  - '{'
-  - '}'
-  - ''
-  - PAGE UP
+  - Gui+PERIOD
+  - Ctl+UP ARROW
+  - Ctl+↓
+  - Ctl+\
+  - Ctl+}
+  - {t: ▽, type: trans}
   - Alt+←
   - {t: SPACE, h: RALT}
   - Alt+→
   - Ctl+W
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ESCAPE
   - TAB
-  - {t: BS, type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PAGE UP
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - F12
   Device Layer:
   - ''
   - ''
