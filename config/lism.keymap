@@ -87,10 +87,10 @@
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-&kp LC(BACKSPACE)  &trans            &kp LS(UP)    &trans             &kp LS(F5)                              &kp LG(LEFT)  &kp LS(LG(LEFT_ARROW))  &kp UP          &kp LS(LG(RIGHT))  &kp LG(RIGHT)
-&kp K              &kp LS(LEFT)      &kp LS(DOWN)  &kp LS(RIGHT)      &trans                                  &kp HOME      &kp LEFT                &kp DOWN        &kp RIGHT          &kp END
-&kp LG(PERIOD)     &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(BACKSLASH)  &kp LC(RIGHT_BRACE)                     &trans        &kp LA(LEFT)            &mt RALT SPACE  &kp LA(RIGHT)      &kp LC(W)
-&trans             &trans            &trans        &trans             &kp ESCAPE           &kp TAB    &trans  &trans        &trans                  &kp PAGE_UP     &kp PAGE_DOWN      &trans
+&kp LC(BACKSPACE)  &trans            &kp LS(UP)    &trans             &kp LS(F5)                             &kp LG(LEFT)  &kp LS(LG(LEFT_ARROW))  &kp UP          &kp LS(LG(RIGHT))  &kp LG(RIGHT)
+&kp K              &kp LS(LEFT)      &kp LS(DOWN)  &kp LS(RIGHT)      &trans                                 &kp HOME      &kp LEFT                &kp DOWN        &kp RIGHT          &kp END
+&kp LG(PERIOD)     &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(COMMA))  &kp LC(LS(PERIOD))                     &trans        &kp LA(LEFT)            &mt RALT SPACE  &kp LA(RIGHT)      &kp LC(W)
+&trans             &trans            &trans        &trans             &kp ESCAPE          &kp TAB    &trans  &trans        &trans                  &kp PAGE_UP     &kp PAGE_DOWN      &trans
             >;
 
             sensor-bindings = <&encoder_kp J L>;
