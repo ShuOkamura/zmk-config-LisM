@@ -153,8 +153,8 @@ layers:
   - Gui+PERIOD
   - Ctl+UP ARROW
   - Ctl+↓
-  - Ctl+\
-  - Ctl+}
+  - Ctl+Sft+,
+  - Ctl+Sft+PERIOD
   - {t: ▽, type: trans}
   - Alt+←
   - {t: SPACE, h: RALT}
