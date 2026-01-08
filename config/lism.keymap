@@ -69,7 +69,7 @@
 &trans            &trans            &trans            &trans            &trans            &mo 4    &trans  &trans            &trans               &trans            &trans         &trans
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
+            sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
         };
 
         layer_2 {
