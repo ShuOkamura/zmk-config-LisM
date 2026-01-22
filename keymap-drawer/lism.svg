@@ -141,7 +141,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Q</text>
-</g>
+<a href="#Number-Layer">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Number Lay…</tspan></text>
+</a></g>
 <g transform="translate(84, 28)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">W</text>
@@ -321,7 +323,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(588, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F4</text>
+<text x="0" y="0" class="key tap">RALT</text>
 </g>
 <g transform="translate(644, 196)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -541,9 +543,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(30, 560)" class="layer-Number Layer">
 <text x="0" y="28" class="label" id="Number-Layer">Number Layer:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 28)" class="key keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F1</text>
+<g transform="translate(28, 28)" class="key held keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<text x="0" y="0" class="key held tap">F1</text>
 </g>
 <g transform="translate(84, 28)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -661,9 +663,9 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="0" dy="-0.6em">Sft+</tspan><tspan x="0" dy="1.2em">APOS</tspan>
 </text>
 </g>
-<g transform="translate(700, 140)" class="key held keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap">
+<g transform="translate(700, 140)" class="key keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em" style="font-size: 70%">Sft+</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">UNDERSCORE</tspan>
 </text>
 </g>

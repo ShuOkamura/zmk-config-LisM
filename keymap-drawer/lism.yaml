@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
-  - Q
+  - {t: Q, h: Number Layer}
   - W
   - E
   - R
@@ -40,7 +40,7 @@ layers:
   - {t: ENTER, h: Mark Layer}
   - {t: LANG1, h: Mouse Layer}
   - Sft+Gui+4
-  - F4
+  - RALT
   - F5
   - {t: DEL, h: RGUI}
   Mouse Layer:
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Number Layer:
-  - F1
+  - {t: F1, type: held}
   - F2
   - F3
   - F4
@@ -116,7 +116,7 @@ layers:
   - '8'
   - '9'
   - Sft+APOS
-  - {t: Sft+UNDERSCORE, type: held}
+  - Sft+UNDERSCORE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
