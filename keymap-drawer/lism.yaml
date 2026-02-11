@@ -13,7 +13,7 @@ layers:
   - P
   - A
   - S
-  - {t: D, h: Mouse Layer}
+  - D
   - {t: F, h: LSHIFT}
   - G
   - H
@@ -56,7 +56,7 @@ layers:
   - F8
   - KP 1
   - KP 2
-  - {t: KP 3, type: held}
+  - KP 3
   - KP 4
   - KP 5
   - '['
@@ -81,10 +81,10 @@ layers:
   - {t: ▽, type: trans}
   - Device Layer
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - S
+  - Ctl+BS
   - {t: ▽, type: trans}
   Number Layer:
   - {t: F1, type: held}
@@ -185,7 +185,7 @@ layers:
   - {t: BT, h: '4'}
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -210,7 +210,7 @@ layers:
   - ''
   - {type: held}
   - '&studio_unlock'
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
