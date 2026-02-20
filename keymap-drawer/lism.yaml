@@ -31,7 +31,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: /, h: Number Layer}
-  - Sft+CAPS
+  - {t: Sft+CAPS, h: LCTRL}
   - LALT
   - TAB
   - Sft+Gui+4
