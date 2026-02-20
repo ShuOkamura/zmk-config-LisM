@@ -41,7 +41,7 @@ layers:
   - {t: LANG1, h: Mouse Layer}
   - Sft+Gui+4
   - RALT
-  - F5
+  - MUTE
   - {t: DEL, h: RGUI}
   Mouse Layer:
   - Sft+1
@@ -54,21 +54,21 @@ layers:
   - Sft+9
   - Sft+7
   - F8
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP 4
-  - KP 5
+  - PRINTSCREEN
+  - Alt+PRINTSCREEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - \
   - Sft+,
   - Sft+PERIOD
-  - KP 6
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Sft+Gui+S
   - INTERNATIONAL 3
   - ','
@@ -83,8 +83,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - S
-  - Ctl+BS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Number Layer:
   - {t: F1, type: held}
