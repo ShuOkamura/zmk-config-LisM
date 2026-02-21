@@ -1,1 +1,10 @@
 #include "lism.dtsi"
+
+/* --- 20260221以下を自分で追記（エラー回避） --- */
+/ {
+    aliases {
+        led-red = &led0;
+        led-green = &led2;
+        led-blue = &led1;
+    };
+};
