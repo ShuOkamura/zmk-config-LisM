@@ -64,7 +64,7 @@
             display-name = "Mouse Layer";
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)     &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                   &kp LS(NUMBER_6)  &kp LS(NUMBER_8)     &kp LS(NUMBER_9)  &kp LS(N7)     &kp F8
-&kp PRINTSCREEN   &kp LA(PRINTSCREEN)  &trans            &trans            &trans                             &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BACKSLASH     &kp LS(COMMA)  &kp LS(PERIOD)
+&kp PRINTSCREEN   &kp LA(PRINTSCREEN)  &kp A             &trans            &trans                             &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BACKSLASH     &kp LS(COMMA)  &kp LS(PERIOD)
 &trans            &trans               &trans            &trans            &trans                             &kp LS(LG(S))     &kp INTERNATIONAL_3  &kp COMMA         &kp PERIOD     &kp LS(INTERNATIONAL_3)
 &trans            &trans               &trans            &trans            &trans            &mo 4    &trans  &trans            &trans               &trans            &trans         &trans
             >;
