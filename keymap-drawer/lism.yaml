@@ -41,7 +41,7 @@ layers:
   - {t: LANG1, h: Mouse Layer}
   - Sft+Gui+4
   - RALT
-  - MUTE2
+  - MUTE
   - {t: DEL, h: RGUI}
   Mouse Layer:
   - Sft+1
