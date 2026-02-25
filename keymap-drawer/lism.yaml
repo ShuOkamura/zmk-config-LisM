@@ -41,7 +41,7 @@ layers:
   - {t: LANG1, h: Mouse Layer}
   - Sft+Gui+4
   - RALT
-  - MUTE
+  - MUTE2
   - {t: DEL, h: RGUI}
   Mouse Layer:
   - Sft+1
@@ -56,7 +56,7 @@ layers:
   - F8
   - PRINTSCREEN
   - Alt+PRINTSCREEN
-  - A
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
