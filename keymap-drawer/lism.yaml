@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LCTRL}
   - S
   - D
   - {t: F, h: LSHIFT}
@@ -35,7 +35,7 @@ layers:
   - LALT
   - TAB
   - Sft+Gui+4
-  - {t: LANG2, h: LCTRL}
+  - {t: LANG2, h: LSHIFT}
   - {t: SPACE, h: Number Layer}
   - {t: ENTER, h: Mark Layer}
   - {t: LANG1, h: Mouse Layer}
