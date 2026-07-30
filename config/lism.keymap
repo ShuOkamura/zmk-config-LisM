@@ -45,6 +45,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_scroll {
+            bindings = <&mo 2>;
+            key-positions = <27 28>;
+            slow-release;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
