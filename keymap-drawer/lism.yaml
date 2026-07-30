@@ -215,3 +215,6 @@ layers:
   - ''
   - ''
   - Boot
+combos:
+- p: [27, 28]
+  k: Number Layer
